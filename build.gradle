@@ -29,6 +29,7 @@ dependencies {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
     testImplementation 'io.projectreactor:reactor-test'
+    compile group: 'io.netty', name: 'netty-all', version: '5.0.0.Alpha1'
 }
 
 test {
